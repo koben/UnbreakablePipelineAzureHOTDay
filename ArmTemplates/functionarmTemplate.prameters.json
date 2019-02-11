@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "functionName": {
-      "value": [ "HotDay-yourName-SelfhealingFunction", "HotDay-yourName-MonspecValidation" ]
+      "value": [ "unbreakable-yourName-SelfhealingFunction", "unbreakable-yourName-MonspecValidation" ]
     }
   }
 }
