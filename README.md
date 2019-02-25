@@ -16,6 +16,7 @@ Concepts
 
 Sample Application
 To demonstrate the Unbreakable Pipeline concept we use a simple node.js Sample application with a single webpage and some service endpoints. The application is coded to exibit different behavior for different Builds. Throughout the course of the workshop we will update the Build Name by changing the *SimulateBuildNumber* Variable in the pipelines. 
+
 | Build Number | Behavior |
 | --- | --- |
 | **1** | Run Normally without any issues |
