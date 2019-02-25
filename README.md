@@ -11,7 +11,7 @@ Pre Reqs
 
 Concepts
 ## The UnbreakablePipeline  comprises of 2 main components 
-*Quality Gate* To effectively Shift Left and prevent sub optimal code from making it downstream in a pipeline 
+*Quality Gate* To effectively Shift Left and prevent sub optimal code from making it downstream in a pipeline.  
 *Remediation as Code* To fix / handle sub optimal code before it impacts users
 
 Sample Application
