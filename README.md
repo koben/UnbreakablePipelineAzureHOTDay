@@ -5,9 +5,9 @@ Azure Devops provides multiple development collaboration tools. For this Worksho
 *Azure Pipelines:* Creating CI/CD pipelines for deploying the test application. You can read more on Azure Devops Pipelines [here](https://docs.microsoft.com/en-us/azure/devops/pipelines/index?view=vsts).
 
 Pre Reqs 
-1. Sign up for Azure account. You can do it [here]. (https://azure.microsoft.com/en-us/)
-2. Sign up for Azure Devops. You can do it [here]. (https://azure.microsoft.com/en-ca/services/devops/)
-3. Sign up for Dynatrace trial. You can do it [here]. (https://www.dynatrace.com/trial/)
+1. Sign up for Azure account. You can do it [here.](https://azure.microsoft.com/en-us/)
+2. Sign up for Azure Devops. You can do it [here.](https://azure.microsoft.com/en-ca/services/devops/)
+3. Sign up for Dynatrace trial. You can do it [here.](https://www.dynatrace.com/trial/)
 
 Concepts
 ## The UnbreakablePipeline  comprises of 2 main components 
