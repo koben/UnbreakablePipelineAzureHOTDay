@@ -1,6 +1,6 @@
 
 Azure Devops 
-1. Create Personal Access Token - This is required for communication between Azure Devops and Microsoft Azure. You can read more about PATs [here] (https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=vsts) ![](../images/CreatingPAT.png)
+1. Create Personal Access Token - This is required for communication between Azure Devops and Microsoft Azure. You can read more about PATs [here] (https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=vsts) ![](../images/CreatingPAT.PNG)
 2. Create Deployment Group: The release pipeline will create two VM's (Staging and Production) in Microsoft Azure and deploy the app into these VM's. 
 ![](../images/CreateDeploymentGroup.PNG)
 
