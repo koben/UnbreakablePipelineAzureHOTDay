@@ -14,7 +14,7 @@ Concepts
 *Quality Gate* To effectively Shift Left and prevent sub optimal code from making it downstream in a pipeline.  
 *Remediation as Code* To fix / handle sub optimal code before it impacts users
 
-Sample Application
+**Sample Application**
 To demonstrate the Unbreakable Pipeline concept we use a simple node.js Sample application with a single webpage and some service endpoints. The application is coded to exibit different behavior for different Builds. Throughout the course of the workshop we will update the Build Name by changing the *SimulateBuildNumber* Variable in the pipelines. 
 
 | Build Number | Behavior |
@@ -24,5 +24,10 @@ To demonstrate the Unbreakable Pipeline concept we use a simple node.js Sample a
 | **3** | Run Normally without any issues |
 | **4** | if Environment is Staging run normally, if Environment = Production 10% requests return HTTP 500 |
 
-
-
+The workshop is self paced and the follow is:
+1. Initial Preparation 
+2. Import the Project into Azure DevOps
+3. Update name in Function Arm Template 
+4. Continous Integration (Build Pipeline)
+5. Continous Deployment (Release Pipeline) 
+6. Remediation as Code 
