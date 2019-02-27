@@ -1,7 +1,7 @@
 # Continuous Integration
 
 ## What is Build Pipeline?
-The pipelines in Azure Devops are separated into Build and Release Pipelines. Build Pipeline consists of tasts to build the code. 
+The pipelines in Azure Devops are separated into Build and Release Pipelines. Build Pipeline consists of tasks to build the code. 
 
 ## How to use it?
 1. Go to Pipelines -> Builds
