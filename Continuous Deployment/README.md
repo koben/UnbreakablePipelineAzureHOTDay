@@ -45,5 +45,20 @@ As a part of the workshop we will create 4 Resources in Azure cloud. These are a
 This section is to update the pipeline which will deploy the sample application and run the Quality gate. 
 
 ## Setting up UnbreakablePipelineDemo-CD
+1. Update the UnbreakablePipelineDemo-CD by clicking on Edit -> and Select Staging environment
+![](../images/AzureDevopsUbpCD1.PNG) 
+2. For the Deployment Group Job, add the name of the Deployment group created previously and add Staging in the required tags section
+![](../images/AzureDevopsUbpCD2.PNG)
+3. Select Production in task and update the Tag to Production 
+![](../images/AzureDevopsUbpCD3.PNG)
+4. Go to Variables -> Enter Dynatrace Tenant, Dynatrace token, Dynatrace API Token
+![](../images/AzureDevopsUbpCD4.PNG)
+5. Configure the Quality Gate -> Click on the gate and Enable Gates. Add a new Gate and select Azure Function. Enter the function URL (get this from Azure Portal and append: /api/validatePerfSig. 
+![](../images/AzureDevopsUbpCD6.PNG)
+Enter the Function Key which is available in the Azure Portal
+![](../images/AzureDevopsUbpCD7.PNG)
+Enter these values in the Azure Devops Gate
+![](../images/AzureDevopsUbpCD5.PNG)
+6. 
 
 
