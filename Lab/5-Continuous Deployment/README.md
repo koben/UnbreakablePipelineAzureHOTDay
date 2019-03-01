@@ -59,6 +59,23 @@ Enter the Function Key which is available in the Azure Portal
 ![](../../images/AzureDevopsUbpCD7.PNG)
 Enter these values in the Azure Devops Gate
 ![](../../images/AzureDevopsUbpCD5.PNG)
-6. 
+6. Save the changes and Create a new Release. Select the latest Build and Deploy the release Pipeline
+![](../../images/AzureDevopsUbpCD8.PNG)
+7. Ensure all Steps are executed successfully
+![](../../images/AzureDevopsUbpCD9.PNG)
+8. The gate gets executed twice
+![](../../images/AzureDevopsUbpCD10.PNG)
+9. The Quality Gate is validating two Performance metrics:
+**Response time of the Service and Failure rate**
+![](../../images/AzureDevopsUbpCD11.PNG)
+10. After the Quality gate succeeds the release moves to Production and the same app is deployed on the Production Virtual Machine
+![](../../images/AzureDevopsUbpCD12.PNG)
+11. Verify that both Staging and Production services are Deployed into Production and the Deployment Event has been pushed to the service:
+![](../../images/AzureDevopsUbpCD13.PNG)
+12. **Simulate Build Number 2** -  Go to UnbreakablePipelineDemo-CD -> Variables and set the SimulatedBuildNumber to 2. This build throws errors in Staging Environment thereby Failing the Quality check. The build is determined to be bad and is not pushed to Production - Stopping Bad build from moving through the Pipeline.  
+![](../../images/AzureDevopsUbpCD14.PNG)
+13. Quality Gate Fails - This is expected:
+![](../../images/AzureDevopsUbpCD15.PNG)
+
 
 
