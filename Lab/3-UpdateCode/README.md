@@ -6,4 +6,4 @@ The project deploys some Azure Functions. By default Azure creates a DNS record 
 ## How to update the Function Names
 Go to Repos -> files -> functionarmTemplate.parameters.json and edit the file. Replace "yourname" with your name and commit the code. 
 
-![](../images/AzureDevopsUpdateFunction.PNG)
+![](../../images/AzureDevopsUpdateFunction.PNG)
