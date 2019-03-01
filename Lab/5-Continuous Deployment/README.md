@@ -19,46 +19,46 @@ As a part of the workshop we will create 4 Resources in Azure cloud. These are a
 ## Setting up Create Utilities Pipeline 
 1. Select the Create Utilitles Pipeline and click on Edit
 2. In the Pipeline view, there are some items that need attention. Click on the 2 Jobs, 8 Tasks. 
-![](../images/AzureDevopsCreateUtilities1.PNG)
+![](../../images/AzureDevopsCreateUtilities1.PNG)
 3. Set Agent Job to be Hosted VS2017
-![](../images/AzureDevopsCreateUtilities2.PNG)
+![](../../images/AzureDevopsCreateUtilities2.PNG)
 4. Update the tasks with appropriate values
-![](../images/AzureDevopsCreateUtilities3.PNG)
+![](../../images/AzureDevopsCreateUtilities3.PNG)
 5. Update the tasks with appropriate values
-![](../images/AzureDevopsCreateUtilities4.PNG)
+![](../../images/AzureDevopsCreateUtilities4.PNG)
 6. Create a New Service Connection
-![](../images/AzureDevopsCreateUtilities5.PNG)
+![](../../images/AzureDevopsCreateUtilities5.PNG)
 7. Update the Deployment Group Name
-![](../images/AzureDevopsCreateUtilities6.PNG)
+![](../../images/AzureDevopsCreateUtilities6.PNG)
 8. Go to Variables and update the Dynatrace-Tenant and Dynatrace Token information
-![](../images/AzureDevopsCreateUtilities7.PNG)
+![](../../images/AzureDevopsCreateUtilities7.PNG)
 9. Save and create a new release 
-![](../images/AzureDevopsCreateUtilities8.PNG)
+![](../../images/AzureDevopsCreateUtilities8.PNG)
 
 ## Expected Output
 1. Login to Dynatrace tenant to verify that the OneAgent is installed on two hosts: 
-![](../images/AzureDevopsCreateUtilities9.PNG)
+![](../../images/AzureDevopsCreateUtilities9.PNG)
 2. Login to Azure portal and ensure that the following resources are created
-![](../images/AzureDevopsCreateUtilities10.PNG)
+![](../../images/AzureDevopsCreateUtilities10.PNG)
 
 ## 5(b) UnbreakablePipelineDemo-CD
 This section is to update the pipeline which will deploy the sample application and run the Quality gate. 
 
 ## Setting up UnbreakablePipelineDemo-CD
 1. Update the UnbreakablePipelineDemo-CD by clicking on Edit -> and Select Staging environment
-![](../images/AzureDevopsUbpCD1.PNG) 
+![](../../images/AzureDevopsUbpCD1.PNG) 
 2. For the Deployment Group Job, add the name of the Deployment group created previously and add Staging in the required tags section
-![](../images/AzureDevopsUbpCD2.PNG)
+![](../../images/AzureDevopsUbpCD2.PNG)
 3. Select Production in task and update the Tag to Production 
-![](../images/AzureDevopsUbpCD3.PNG)
+![](../../images/AzureDevopsUbpCD3.PNG)
 4. Go to Variables -> Enter Dynatrace Tenant, Dynatrace token, Dynatrace API Token
-![](../images/AzureDevopsUbpCD4.PNG)
+![](../../images/AzureDevopsUbpCD4.PNG)
 5. Configure the Quality Gate -> Click on the gate and Enable Gates. Add a new Gate and select Azure Function. Enter the function URL (get this from Azure Portal and append: /api/validatePerfSig. 
-![](../images/AzureDevopsUbpCD6.PNG)
+![](../../images/AzureDevopsUbpCD6.PNG)
 Enter the Function Key which is available in the Azure Portal
-![](../images/AzureDevopsUbpCD7.PNG)
+![](../../images/AzureDevopsUbpCD7.PNG)
 Enter these values in the Azure Devops Gate
-![](../images/AzureDevopsUbpCD5.PNG)
+![](../../images/AzureDevopsUbpCD5.PNG)
 6. 
 
 
