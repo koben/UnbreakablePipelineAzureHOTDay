@@ -1,9 +1,8 @@
-URL to Monspec File:
-URL to PipelineInfo File
-PAT:
+
+Azure Devops PAT:
 Dynatrace_Tenant:
 Dynatrace_Token:
 Dynatrace_API_TOKEN:
 SelfHealing Function URL:
-UnbreakablePipelienGate Function URL:
-Unbreakable pipeline Function Token: 
+MonspecValidation Function URL:
+MonspecValidation Function Token: 
