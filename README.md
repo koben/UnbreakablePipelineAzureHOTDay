@@ -34,9 +34,9 @@ To demonstrate the Unbreakable Pipeline concept we use a simple node.js Sample a
 | **4** | if Environment is Staging run normally, if Environment = Production 10% requests return HTTP 500 |
 
 The workshop is self paced and the follow is:
-[1. Initial Preparation](Lab/1-Initial Preparation/README.md)
-[2. Import the Project into Azure DevOps](Lab/2-Import Project/README.md)
+[1. Initial Preparation](Lab/1-InitialPreparation/README.md)
+[2. Import the Project into Azure DevOps](Lab/2-ImportProject/README.md)
 [3. Update name in Function Arm Template](Lab/3-UpdateCode/README.md)
-[4. Continous Integration (Build Pipeline)](Lab/4-Continuous Integration/README.md)
-[5. Continous Deployment (Release Pipeline)](Lab/5-Continuous Deployment/README.md)
+[4. Continous Integration (Build Pipeline)](Lab/4-ContinuousIntegration/README.md)
+[5. Continous Deployment (Release Pipeline)](Lab/5-ContinuousDeployment/README.md)
 [6. Remediation as Code](Lab/6-RemediationAsCode/README.md)
