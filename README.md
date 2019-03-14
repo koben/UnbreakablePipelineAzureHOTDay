@@ -35,14 +35,9 @@ To demonstrate the Unbreakable Pipeline concept we use a simple node.js Sample a
 
 The workshop is self paced and the follow is:
 
-[1. Initial Preparation](Lab/1-InitialPreparation/README.md)
-
-[2. Import the Project into Azure DevOps](Lab/2-ImportProject/README.md)
-
-[3. Update name in Function Arm Template](Lab/3-UpdateCode/README.md)
-
-[4. Continous Integration (Build Pipeline)](Lab/4-ContinuousIntegration/README.md)
-
-[5. Continous Deployment (Release Pipeline)](Lab/5-ContinuousDeployment/README.md)
-
-[6. Remediation as Code](Lab/6-RemediationAsCode/README.md)
+[1. Initial Preparation](Lab/1-InitialPreparation/README.md)<br/>
+[2. Import the Project into Azure DevOps](Lab/2-ImportProject/README.md)<br/>
+[3. Update name in Function Arm Template](Lab/3-UpdateCode/README.md)<br/>
+[4. Continous Integration (Build Pipeline)](Lab/4-ContinuousIntegration/README.md)<br/>
+[5. Continous Deployment (Release Pipeline)](Lab/5-ContinuousDeployment/README.md)<br/>
+[6. Remediation as Code](Lab/6-RemediationAsCode/README.md)<br/>
