@@ -12,8 +12,17 @@ DT_VSTSURL : VSTS URL (https://yourOrg.visualstudio.com)
 DT_VSTSPAT: VSTS PAT
 ![](../../images/AzureDevopsRaaC4.PNG)
 3. Go to Dynatrace screen and add Problem Notification:
-![](../../images/AzureDevopsRaaC3).PNG
+![](../../images/AzureDevopsRaaC3.PNG)
 Add Custom Payload:
+
+{
+"State":"{State}",
+"ProblemID":"{ProblemID}",
+"ProblemTitle":"{ProblemTitle}",
+"PID": "{PID}",
+"ImpactedEntities": {ImpactedEntities}
+}
+
 4. Deploy the release From Azure Devops and go to Dynatrace screen to see the Problem notification
 ![](../../images/AzureDevopsRaaC5.PNG)
 5. GO to Azure Portal and see the Logs for the function
